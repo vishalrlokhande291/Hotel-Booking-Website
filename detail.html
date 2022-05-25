@@ -4,19 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>detail</title>
 </head>
 <body>
     <div>
         <div>
             <header>
-                <img src="./assests/images/logo.png" height="200px" widthh="150px">
+                <a href="./index.html"><img src="./assests/images/logo.png" height="200px" widthh="150px"></a>
                 <a href="./login.html" target="_blank"><nav>Login</nav></a> 
             </header>
         </div>
         <div>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""><br>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"><br>
             <a href="./payment.html">Book Now</a>
+            <form action="">
+                <label for="adult">Adults:</label>
+                <input type="number" min="1" value="1"><br>
+
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required><br>
+
+                <label for="indate">From Date:</label>
+                <input type="date" name="indate" id="indate"><br>
+
+                <label for="outdate">To Date:</label>
+                <input type="date" name="outdate" id="outdate"><br>
+
+                <label for="total">Total:</label>
+                <input type="number" name="total" id="total" readonly><br>
+
+                <a href="./payment.html"><button>Book Now</button></a>
+            </form>
             <h3>Radisson Blu Hotel</h3>
             <p>RATING</p>
             <p>5 Star</p>
