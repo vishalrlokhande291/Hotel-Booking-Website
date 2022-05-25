@@ -1,0 +1,12 @@
+html,body{
+    min-height: 100%;
+    min-width: 100%;
+}
+.socialmedia{
+    height: 20px;
+    width: 22px;
+}
+.listIMG{
+    height: 200px;
+    width: 250px;
+}

@@ -5,18 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>detail</title>
+    <link rel="stylesheet" href="./styles/detail.css">
 </head>
 <body>
     <div>
-        <div>
-            <header>
-                <a href="./index.html"><img src="./assests/images/logo.png" height="200px" widthh="150px"></a>
+        <header>
+                <a href="./index.html"><img src="./assests/images/logo.png" height="60px" widthh="60px"></a>
                 <a href="./login.html" target="_blank"><nav>Login</nav></a> 
-            </header>
-        </div>
+        </header>
         <div>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel"><br>
-            <a href="./payment.html">Book Now</a>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" id="radisson-blu"><br>
+            
             <form action="">
                 <label for="adult">Adults:</label>
                 <input type="number" min="1" value="1"><br>
@@ -25,15 +24,14 @@
                 <input type="text" name="name" id="name" required><br>
 
                 <label for="indate">From Date:</label>
-                <input type="date" name="indate" id="indate"><br>
+                <input type="date" name="indate" id="indate" required><br>
 
                 <label for="outdate">To Date:</label>
-                <input type="date" name="outdate" id="outdate"><br>
+                <input type="date" name="outdate" id="outdate" required><br>
 
                 <label for="total">Total:</label>
                 <input type="number" name="total" id="total" readonly><br>
-
-                <a href="./payment.html"><button>Book Now</button></a>
+                
             </form>
             <h3>Radisson Blu Hotel</h3>
             <p>RATING</p>
@@ -50,13 +48,13 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere earum repellat veniam necessitatibus adipisci porro quidem aperiam dolorem tempora asperiores excepturi illum, 
                 voluptates officiis maiores tempore alias laboriosam saepe animi at eaque ducimus possimus! Corporis excepturi esse cupiditate accusamus voluptas.</p>
         </div>
-        <div>
+        <footer>
             <a href="./contact.html" target="_blank">Contact Us</a><br>
             <a href="https://www.facebook.com"><img src="./assests/images/facebook.png" alt="Facebook" width="22px" height="20px"></a>
             <a href="https://www.instagram.com"><img src="./assests/images/instagram.png" alt="Instagram" width="22px" height="20px"></a>
             <a href="https://twitter.com"><img src="./assests/images/twitter.png" alt="Twitter" width="22px" height="20px"></a>
             <p>© 2020 ROOM SEARCH PVT.LTD.</p>
-        </div>
+        </footer>
     </div>
 </body>
 </html>
