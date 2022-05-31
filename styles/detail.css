@@ -1,28 +1,18 @@
-html,body{
-    min-height: 100%;
-    min-width: 100%;
-    margin: 0%;
-}
-#radisson-blu{
+section img {
     height: 500px;
     width: 500px;
+    margin: 2% 4% 0% 4%;
 }
-header ,footer{
-    background-color: rosybrown;
+
+form {
+    margin: 0% 4% 1% 4%;
 }
-body{
-    background-color: #e0e0e0;
-};
-.radisson{
-    margin-top: 2%;
-    margin-left: 4%;
-    margin-right: 4%;
-}
-.form{
-    margin-right: 4%;
-    margin-left: 4%;
-    margin-bottom: 1%;
-}
-.description{
+
+.description {
     margin: 1% 4% 2% 4%;
+}
+
+section {
+    margin-top: 6%;
+    margin-bottom: 6%;
 }

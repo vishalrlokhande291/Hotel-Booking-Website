@@ -1,30 +1,49 @@
-html,body{
-    min-height: 100%;
-    min-width: 100%;
-    margin: 0%;
+section img {
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
 }
-.socialmedia{
-    height: 20px;
-    width: 22px;
-}
-body{
-    background-color: #e0e0e0;
-};
-header ,footer{
-    background-color: rosybrown;
-}
-#searchBar{
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
-    height: 380px;
-    background-size: cover;
+
+form {
+    height: 450px;
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.cityImg{
-    margin-right: 15%;
+
+.hotel {
+    display: flex;
+    justify-content: center;
     margin-left: 15%;
+    margin-right: 15%;
 }
-.city1{
+
+.card {
     padding: 4%;
-    border-radius: 25%;
+    border-radius: 25px;
+}
+
+section {
+    height: 800px;
+}
+
+.viewMore {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+form input {
+    width: 400px;
+    border: 1px solid white;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
 }
