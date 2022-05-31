@@ -1,7 +1,12 @@
 section img {
-    height: 500px;
-    width: 500px;
     margin: 2% 4% 0% 4%;
+    height: 70%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.firstImg {
+    margin-bottom: -5%;
 }
 
 form {
@@ -11,11 +16,10 @@ form {
 
 .description {
     margin: 1% 4% 2% 4%;
-
 }
 
 section {
-    margin-top: 6%;
+    margin-top: 10%;
     margin-bottom: 6%;
 }
 
@@ -23,11 +27,6 @@ section {
     display: flex;
     align-items: center;
     height: 450px;
-}
-
-section img {
-    height: 90%;
-    width: 60%;
 }
 
 .hotelImage {
@@ -82,4 +81,29 @@ section img {
 
 .description h5 {
     font-family: cursive;
+}
+
+/* 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
+}
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: rosybrown;
+}
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: red;
+} */
+
+header {
+    z-index: 1;
 }

@@ -15,6 +15,7 @@
 
 section {
     margin-bottom: 50px;
+    width: 100%;
 }
 
 #map-view {
@@ -70,4 +71,8 @@ section ul li a {
 
 .hotelDetails1 {
     padding: 1.9% 4%;
+}
+
+.checked {
+    color: orange;
 }
