@@ -1,49 +1,83 @@
 section img {
-    height: 150px;
-    width: 150px;
-    border-radius: 25px;
+    height: 500px;
+    width: 500px;
+    margin: 2% 4% 0% 4%;
 }
 
 form {
+    height: 100%;
+    width: 100%;
+}
+
+.description {
+    margin: 1% 4% 2% 4%;
+
+}
+
+section {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.bookingDetails {
+    display: flex;
+    align-items: center;
     height: 450px;
-    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+section img {
+    height: 90%;
+    width: 60%;
+}
+
+.hotelImage {
+    margin-left: 2%;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.paymentDetails {
+    margin-right: 2%;
+    border: 1px solid black;
+    height: 100%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.hotel {
-    display: flex;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+.payment {
+    margin-bottom: 1%;
+    margin-left: 8%;
+    margin-top: 8%;
+    height: 100%;
+    width: 100%;
 }
 
-.card {
-    padding: 4%;
-    border-radius: 25px;
+.payment form {
+    height: 100%;
+    width: 100%;
 }
 
-section {
-    height: 800px;
+.payment form input {
+    width: 60%;
+    margin: 6%;
+    margin-left: 9%;
+    text-align: left;
 }
 
-.viewMore {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    text-decoration: none;
-    color: black;
+.payment form button {
+    margin: 6%;
+    margin-left: 17%;
+    width: 20%;
+    height: 8%;
 }
 
-form input {
-    width: 400px;
-    border: 1px solid white;
-    background-color: #f1f1f1;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 12px;
+.description h5 {
+    font-family: cursive;
 }

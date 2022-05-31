@@ -5,8 +5,12 @@
 
 #list-view .hotel {
     margin: 2%;
-    background-color: rgb(132, 136, 139);
+    background-color: lightgray;
+    display: flex;
     width: 40%;
+    margin-right: 60px;
+    margin-left: 80px;
+    margin-bottom: 6%;
 }
 
 section {
@@ -40,12 +44,14 @@ section ul li a {
     color: black;
 }
 
-#list-view .hotel {
-    margin-right: 60px;
-    margin-left: 80px;
-}
-
 #list-view {
     display: flex;
     flex-wrap: wrap;
+}
+
+.hotelDetails {
+    margin-left: 110%;
+    margin-top: -80%;
+    width: 100%;
+    margin-bottom: 34%;
 }

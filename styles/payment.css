@@ -1,6 +1,8 @@
 .hotelDetails img {
-    width: 500px;
-    height: 500px;
+    /* width: 500px;
+    height: 500px; */
+    max-width: 270px;
+    max-height: 300px;
 }
 
 span {
@@ -12,24 +14,49 @@ span {
     width: 50%;
     height: 20%;
     margin: 2% auto;
+    display: flex;
 }
 
 .customerDetails {
-    margin: 2%;
+    margin: 0% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rosybrown;
+    border: 1px solid black;
+    float: left;
+    width: 95%;
+    border-radius: 5px;
 }
 
 .tariffDetails {
-    border: 1px solid black;
     border-radius: 5px;
     padding: 1% 2%;
+    margin-left: 15%;
 }
 
 section {
     margin-top: 6%;
     margin-bottom: 6%;
+    display: flex;
+    flex-direction: column;
 }
 
 section a {
     text-decoration: none;
     color: black;
+}
+
+.details {
+    height: 70%;
+    width: 50%;
+    margin: auto;
+}
+
+.customerDetails a {
+    margin-left: 10%;
+}
+
+.customerDetails span {
+    font-family: cursive;
 }

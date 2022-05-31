@@ -5,14 +5,79 @@ section img {
 }
 
 form {
-    margin: 0% 4% 1% 4%;
+    height: 100%;
+    width: 100%;
 }
 
 .description {
     margin: 1% 4% 2% 4%;
+
 }
 
 section {
     margin-top: 6%;
     margin-bottom: 6%;
+}
+
+.bookingDetails {
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+
+section img {
+    height: 90%;
+    width: 60%;
+}
+
+.hotelImage {
+    margin-left: 2%;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.paymentDetails {
+    margin-right: 2%;
+    border: 1px solid black;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment {
+    margin-bottom: 1%;
+    margin-left: 8%;
+    margin-top: 8%;
+    height: 100%;
+    width: 100%;
+}
+
+.payment form {
+    height: 100%;
+    width: 100%;
+}
+
+.payment form input {
+    width: 60%;
+    margin: 6%;
+    margin-left: 9%;
+    text-align: left;
+}
+
+.payment form button {
+    margin: 6%;
+    margin-left: 17%;
+    width: 20%;
+    height: 8%;
+}
+
+.description h5 {
+    font-family: cursive;
 }
