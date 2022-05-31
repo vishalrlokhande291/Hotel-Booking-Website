@@ -18,9 +18,9 @@ section {
     width: 100%;
 }
 
-#map-view {
+/* #map-view {
     display: none;
-}
+} */
 
 #list-view .hotel:hover {
     margin-right: 60px;
@@ -75,4 +75,86 @@ section ul li a {
 
 .checked {
     color: orange;
+}
+
+@media screen and (min-device-width: 576px) and (max-device-width: 768px) {
+    #list-view .hotel {
+        margin: 2%;
+        background-color: lightgray;
+        width: 1500px;
+        display: flex;
+    }
+
+    .hotel img {
+        width: 300px;
+        height: 150px;
+    }
+
+    section ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+
+    .hotelDetails {
+        margin-left: 5%;
+        margin-top: -6%;
+        width: 100%;
+        margin-bottom: 34%;
+        color: black;
+        padding-top: 2%;
+    }
+
+    #list-view .hotel {
+        margin: 2%;
+        background-color: lightgray;
+        display: flex;
+        width: 70%;
+        margin-right: 65px;
+        margin-left: 80px;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-device-width: 576px) {
+    section ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+
+    .hotel {
+        display: flex;
+        flex-direction: column;
+        margin: 2%;
+        background-color: lightgray;
+        width: 700px;
+        display: flex;
+    }
+
+    .hotel img {
+        width: 450px;
+        height: 400px;
+    }
+
+    .hotelDetails {
+        margin-left: 5%;
+        margin-top: -6%;
+        width: 100%;
+        margin-bottom: 34%;
+        color: black;
+        padding-top: 2%;
+    }
+
+    #list-view .hotel {
+        margin: 2%;
+        background-color: lightgray;
+        display: flex;
+        width: 70%;
+        margin-right: 65px;
+        margin-left: 80px;
+        margin-bottom: 6%;
+    }
 }

@@ -83,27 +83,80 @@ section {
     font-family: cursive;
 }
 
-/* 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    background-image: none;
-}
-.carousel-control-next-icon:after {
-    content: '>';
-    font-size: 55px;
-    color: rosybrown;
-}
-.carousel-control-prev-icon:after {
-    content: '<';
-    font-size: 55px;
-    color: red;
-} */
-
 header {
     z-index: 1;
+}
+
+@media screen and (min-device-width: 576px) and (max-device-width: 768px) {
+    section {
+        margin-top: 14%;
+        margin-bottom: 6%;
+    }
+
+    .hotelImage {
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article img {
+        height: 200px;
+        width: 30%;
+        z-index: -1;
+    }
+
+    .paymentDetails {
+        margin-right: 2%;
+        border: 1px solid black;
+        height: 100%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .payment button {
+        margin-right: 400px;
+    }
+}
+
+@media screen and (max-device-width: 576px) {
+    section {
+        height: 1250px;
+    }
+
+    .hotelImage {
+        margin-top: 30px;
+    }
+
+    article img {
+        height: 200px;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .bookingDetails {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+    }
+
+    .paymentDetails {
+        margin-top: 50px;
+        width: 400px;
+    }
+
+    .description {
+        margin-top: 300px;
+    }
+
+    .payment button {
+        margin-right: 400px;
+    }
 }

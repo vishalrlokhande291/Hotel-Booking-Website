@@ -25,6 +25,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0px;
+    z-index: 1;
 }
 
 .loginButton {
@@ -64,4 +65,28 @@ footer p {
 
 footer>a {
     margin: 2%;
+}
+
+@media screen and (max-device-width: 576px) {
+    footer {
+        background-color: rosybrown;
+        display: flex;
+        align-items: center;
+        height: 90px;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    footer .btn {
+        width: 105px;
+        height: 35px;
+    }
+
+    footer p {
+        position: absolute;
+        left: 38%;
+        font-size: 10px;
+        top: 5px;
+    }
 }
