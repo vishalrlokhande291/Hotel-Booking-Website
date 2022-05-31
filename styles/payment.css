@@ -32,7 +32,7 @@ span {
 .tariffDetails {
     border-radius: 5px;
     padding: 1% 2%;
-    margin-left: 15%;
+    margin-left: 6%;
 }
 
 section {
@@ -59,4 +59,8 @@ section a {
 
 .customerDetails span {
     font-family: cursive;
+}
+
+.payNow {
+    margin-left: 150px;
 }

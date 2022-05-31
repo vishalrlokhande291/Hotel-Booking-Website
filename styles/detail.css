@@ -65,17 +65,19 @@ section img {
 }
 
 .payment form input {
+    display: inline-block;
     width: 60%;
     margin: 6%;
     margin-left: 9%;
     text-align: left;
+    margin-right: 10px;
 }
 
 .payment form button {
-    margin: 6%;
-    margin-left: 17%;
-    width: 20%;
-    height: 8%;
+    margin-left: 150px;
+    width: 100px;
+    margin-top: -6px;
+    width: 100px;
 }
 
 .description h5 {

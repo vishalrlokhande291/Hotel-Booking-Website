@@ -21,6 +21,12 @@ section {
     display: none;
 }
 
+#list-view .hotel:hover {
+    margin-right: 60px;
+    margin-left: 80px;
+    background-color: rosybrown;
+}
+
 section ul {
     margin-top: 5%;
     display: flex;
@@ -54,4 +60,14 @@ section ul li a {
     margin-top: -80%;
     width: 100%;
     margin-bottom: 34%;
+    color: black;
+    padding-top: 2%;
+}
+
+.hotelDetails h3 {
+    margin-top: 10px;
+}
+
+.hotelDetails1 {
+    padding: 1.9% 4%;
 }
