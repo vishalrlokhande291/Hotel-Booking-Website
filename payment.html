@@ -42,7 +42,7 @@
                 <p><span>Tariff Breakdown: </span>Rs 1000 x 2 Adults x 5 Nights</p>
                 <p><span>Total Amount: </span>Rs 10000</p>
             </div>
-            <button type="button" class="btn btn-success payNow" disabled>Pay Now</button>
+            <button type="button" class="btn btn-success payNow" onclick="payNow()" id="payNow">Pay Now</button>
         </div>
 
     </section>
@@ -73,18 +73,18 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group row">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Username</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                <input type="text" class="form-control" id="inputUname" placeholder="Username">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary" id="loginBtn1" onclick="login()">Login</button>
                     </form>
                 </div>
             </div>

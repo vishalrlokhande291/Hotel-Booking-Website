@@ -52,7 +52,7 @@
                 <div class="cityName">Calcutta</div>
             </div>
         </div>
-        <div class="hotel">
+        <div class="hotel" id="hotellist2" style="display: none;">
             <div class="card border-0">
                 <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg" alt="">
                 <div class="cityName">Chennai</div>
@@ -71,8 +71,8 @@
             </div>
         </div>
         <div class="text-center">
-            <a class="btn btn-secondary viewMore" href="#" id="viewMore">View more </a>
-            <a class="btn btn-secondary viewMore" href="#" id="viewLess" style="display: none;">View less </a>
+            <a class="btn btn-secondary viewMore" href="#" id="viewMoreid">View more </a>
+            <a class="btn btn-secondary viewMore" href="#" id="viewLessid" style="display: none;">View less </a>
         </div>
     </section>
     <footer>
@@ -114,7 +114,7 @@
                                 <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary" id="loginBtn1">Login</button>
+                        <button type="submit" class="btn btn-primary" id="loginBtn1" onclick="login()">Login</button>
                     </form>
                 </div>
             </div>
